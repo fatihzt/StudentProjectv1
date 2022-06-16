@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\bin\Debug\net6.0\Ögrenci.exe
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\bin\Debug\net6.0\Ögrenci.deps.json
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\bin\Debug\net6.0\Ögrenci.runtimeconfig.json
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\bin\Debug\net6.0\Ögrenci.dll
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\bin\Debug\net6.0\Ögrenci.pdb
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.AssemblyInfo.cs
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.dll
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\refint\Ögrenci.dll
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.pdb
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\Ögrenci.genruntimeconfig.cache
+C:\Users\USER\source\repos\Ögrenci\Ögrenci\obj\Debug\net6.0\ref\Ögrenci.dll
