@@ -76,7 +76,7 @@ namespace StudentProject
             Berke.Surname = "Akgün";
             Berke.Department = "Computer Engineering";
             List<Notes> BerkeNotes = new List<Notes>();
-            BerkeNotes.Add(new Notes() { Note = 20, Course = chem });
+            BerkeNotes.Add(new Notes() { Note = 70, Course = chem });
             Berke.Note = BerkeNotes;
 
             Student Fatih = new Student();
@@ -89,6 +89,7 @@ namespace StudentProject
             FatihNotes.Add(new Notes() { Note = 40, Course = chem });
             Fatih.Note = FatihNotes;
 
+
             students.Add(Yasin);
             students.Add(Bedirhan);
             students.Add(Canan);
@@ -96,10 +97,57 @@ namespace StudentProject
             students.Add(Berke);
             students.Add(Fatih);
 
-
+            foreach(Student i in students)
+            {
+                Console.WriteLine(i.Id + " " + i.Name + " " + i.Surname + " "  );
+                if (i.Id == 1)
+                {
+                    foreach(Notes x in YasinNotes)
+                    {
+                        Console.WriteLine(x.Note+" ");
+                    }
+                }
+                else if (i.Id == 2)
+                {
+                    foreach(Notes y in BedirhanNotes)
+                    {
+                        Console.WriteLine(y.Note);
+                        Console.WriteLine(y.Course);
+                    }
+                }
+                else if(i.Id == 3)
+                {
+                    foreach(Notes z in CananNotes)
+                    {
+                        Console.WriteLine(z.Note);
+                    }
+                }
+                else if (i.Id == 4)
+                {
+                    foreach(Notes t in UgurcanNotes)
+                    {
+                        Console.WriteLine(t.Note);
+                    }
+                }
+                else if (i.Id == 5)
+                {
+                    foreach(Notes u in BerkeNotes)
+                    {
+                        Console.WriteLine(u.Note);
+                    }
+                }
+                else if (i.Id == 6)
+                {
+                    foreach(Notes v in FatihNotes)
+                    {
+                        Console.WriteLine(v.Note);
+                    }
+                }
+                
+            }
+            
 
 
         }
-
     }
 }

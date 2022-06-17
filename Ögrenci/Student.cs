@@ -8,4 +8,5 @@ public class Student
     public string Surname { get; set; }
     public string Department { get; set; }
     public List<Notes> Note { get; set; }
+
 }
