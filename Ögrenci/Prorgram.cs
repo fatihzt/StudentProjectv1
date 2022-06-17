@@ -97,7 +97,6 @@ namespace StudentProject
             students.Add(Fatih);
 
 
-            Console.WriteLine(FatihNotes);
 
 
         }
