@@ -9,7 +9,7 @@ namespace StudentProject
     public class program
     {
         public static List<Course> courses = new();
-        public static List<Student> students = new ();
+        public static List<Student> students = new();
 
         static void Main(string[] args)
         {
@@ -27,15 +27,15 @@ namespace StudentProject
             courses.Add(phy);
             courses.Add(math);
 
-            Student Yasin=new Student();
+            Student Yasin = new Student();
             Yasin.Id = 1;
             Yasin.No = 180201001;
             Yasin.Name = "Yasin İlkalp";
             Yasin.Surname = "Arabacı";
             Yasin.Department = "Computer Engineering";
-            List<Notes>YasinNotes=new List<Notes>();
-            YasinNotes.Add(new Notes(){ Note=50,Course=math});
-            Yasin.Note=YasinNotes;
+            List<Notes> YasinNotes = new List<Notes>();
+            YasinNotes.Add(new Notes() { Note = 50, Course = math });
+            Yasin.Note = YasinNotes;
 
 
             Student Bedirhan = new Student();
@@ -44,11 +44,11 @@ namespace StudentProject
             Bedirhan.Name = "Bedirhan";
             Bedirhan.Surname = "Horoz";
             Bedirhan.Department = "Computer Engineering";
-            List<Notes>BedirhanNotes=new List<Notes>();
-            BedirhanNotes.Add(new Notes(){ Note=80,Course=math});
-            Bedirhan.Note=BedirhanNotes;
+            List<Notes> BedirhanNotes = new List<Notes>();
+            BedirhanNotes.Add(new Notes() { Note = 80, Course = math });
+            Bedirhan.Note = BedirhanNotes;
 
-            Student Canan= new Student();
+            Student Canan = new Student();
             Canan.Id = 3;
             Canan.No = 180201003;
             Canan.Name = "Canan";
@@ -56,7 +56,7 @@ namespace StudentProject
             Canan.Department = "Computer Engineering";
             List<Notes> CananNotes = new List<Notes>();
             CananNotes.Add(new Notes() { Note = 70, Course = phy });
-            Canan.Note=CananNotes;
+            Canan.Note = CananNotes;
 
             Student Ugurcan = new Student();
             Ugurcan.Id = 4;
@@ -64,30 +64,30 @@ namespace StudentProject
             Ugurcan.Name = "Uğurcan";
             Ugurcan.Surname = "Uçar";
             Ugurcan.Department = "Computer Engineering";
-            List <Notes> UgurcanNotes = new List<Notes>();
-            UgurcanNotes.Add(new Notes() { Note=90,Course=phy});
-            Ugurcan.Note=UgurcanNotes;
+            List<Notes> UgurcanNotes = new List<Notes>();
+            UgurcanNotes.Add(new Notes() { Note = 90, Course = phy });
+            Ugurcan.Note = UgurcanNotes;
 
 
-            Student Berke= new Student();
+            Student Berke = new Student();
             Berke.Id = 5;
             Berke.No = 180201005;
             Berke.Name = "Hakkı Berke";
             Berke.Surname = "Akgün";
             Berke.Department = "Computer Engineering";
-            List<Notes>BerkeNotes=new List<Notes>();
+            List<Notes> BerkeNotes = new List<Notes>();
             BerkeNotes.Add(new Notes() { Note = 20, Course = chem });
-            Berke.Note=BerkeNotes;
+            Berke.Note = BerkeNotes;
 
-            Student Fatih= new Student();
+            Student Fatih = new Student();
             Fatih.Id = 6;
             Fatih.No = 180201006;
             Fatih.Name = "Muhammet Fatih";
             Fatih.Surname = "Özata";
             Fatih.Department = "Computer Engineering";
-            List<Notes>FatihNotes=new List<Notes>();
-            FatihNotes.Add(new Notes() { Note=40,Course = chem });
-            Fatih.Note=FatihNotes;
+            List<Notes> FatihNotes = new List<Notes>();
+            FatihNotes.Add(new Notes() { Note = 40, Course = chem });
+            Fatih.Note = FatihNotes;
 
             students.Add(Yasin);
             students.Add(Bedirhan);
@@ -95,7 +95,10 @@ namespace StudentProject
             students.Add(Ugurcan);
             students.Add(Berke);
             students.Add(Fatih);
-            
+
+
+            Console.WriteLine(FatihNotes);
+
 
         }
 
