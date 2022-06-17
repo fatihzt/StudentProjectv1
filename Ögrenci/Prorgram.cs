@@ -27,64 +27,40 @@ namespace StudentProject
             courses.Add(phy);
             courses.Add(math);
 
-            Student Yasin = new Student();
-            Yasin.Id = 1;
-            Yasin.No = 180201001;
-            Yasin.Name = "Yasin İlkalp";
-            Yasin.Surname = "Arabacı";
-            Yasin.Department = "Computer Engineering";
+            Student Yasin = new Student(1,180201001,"Yasin İlkalp","Arabacı");
+            
             List<Notes> YasinNotes = new List<Notes>();
             YasinNotes.Add(new Notes() { Note = 50, Course = math });
             Yasin.Note = YasinNotes;
 
 
-            Student Bedirhan = new Student();
-            Bedirhan.Id = 2;
-            Bedirhan.No = 180201002;
-            Bedirhan.Name = "Bedirhan";
-            Bedirhan.Surname = "Horoz";
-            Bedirhan.Department = "Computer Engineering";
+            Student Bedirhan = new Student(2,180201002,"Bedirhan","Horoz");
+            
             List<Notes> BedirhanNotes = new List<Notes>();
             BedirhanNotes.Add(new Notes() { Note = 80, Course = math });
             Bedirhan.Note = BedirhanNotes;
 
-            Student Canan = new Student();
-            Canan.Id = 3;
-            Canan.No = 180201003;
-            Canan.Name = "Canan";
-            Canan.Surname = "Abla";
-            Canan.Department = "Computer Engineering";
+            Student Canan = new Student(3,180201002,"Canan","Abla");
+            
             List<Notes> CananNotes = new List<Notes>();
             CananNotes.Add(new Notes() { Note = 70, Course = phy });
             Canan.Note = CananNotes;
 
-            Student Ugurcan = new Student();
-            Ugurcan.Id = 4;
-            Ugurcan.No = 180201004;
-            Ugurcan.Name = "Uğurcan";
-            Ugurcan.Surname = "Uçar";
-            Ugurcan.Department = "Computer Engineering";
+            Student Ugurcan = new Student(4,180201004,"Ugurcan","Ucar");
+            
             List<Notes> UgurcanNotes = new List<Notes>();
             UgurcanNotes.Add(new Notes() { Note = 90, Course = phy });
             Ugurcan.Note = UgurcanNotes;
 
 
-            Student Berke = new Student();
-            Berke.Id = 5;
-            Berke.No = 180201005;
-            Berke.Name = "Hakkı Berke";
-            Berke.Surname = "Akgün";
-            Berke.Department = "Computer Engineering";
+            Student Berke = new Student(5,180201005,"Hakkı Berke","Akgun");
+           
             List<Notes> BerkeNotes = new List<Notes>();
             BerkeNotes.Add(new Notes() { Note = 70, Course = chem });
             Berke.Note = BerkeNotes;
 
-            Student Fatih = new Student();
-            Fatih.Id = 6;
-            Fatih.No = 180201006;
-            Fatih.Name = "Muhammet Fatih";
-            Fatih.Surname = "Özata";
-            Fatih.Department = "Computer Engineering";
+            Student Fatih = new Student(6,180201006,"Muhammet Fatih","Ozata");
+            
             List<Notes> FatihNotes = new List<Notes>();
             FatihNotes.Add(new Notes() { Note = 40, Course = chem });
             Fatih.Note = FatihNotes;
