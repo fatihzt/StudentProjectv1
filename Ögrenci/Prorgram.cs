@@ -97,51 +97,16 @@ namespace StudentProject
             students.Add(Berke);
             students.Add(Fatih);
 
+            Console.WriteLine("----------------------");
+            Console.WriteLine("Student's Informations");
+            Console.WriteLine("----------------------");
+
             foreach(Student i in students)
             {
-                Console.WriteLine(i.Id + " " + i.Name + " " + i.Surname + " "  );
-                if (i.Id == 1)
+                Console.WriteLine(i.Id + " " + i.Name + " " + i.Surname + " " + i.Department + " " + i.No  );
+                foreach(Notes a in i.Note)
                 {
-                    foreach(Notes x in YasinNotes)
-                    {
-                        Console.WriteLine(x.Note+" ");
-                    }
-                }
-                else if (i.Id == 2)
-                {
-                    foreach(Notes y in BedirhanNotes)
-                    {
-                        Console.WriteLine(y.Note);
-                        Console.WriteLine(y.Course);
-                    }
-                }
-                else if(i.Id == 3)
-                {
-                    foreach(Notes z in CananNotes)
-                    {
-                        Console.WriteLine(z.Note);
-                    }
-                }
-                else if (i.Id == 4)
-                {
-                    foreach(Notes t in UgurcanNotes)
-                    {
-                        Console.WriteLine(t.Note);
-                    }
-                }
-                else if (i.Id == 5)
-                {
-                    foreach(Notes u in BerkeNotes)
-                    {
-                        Console.WriteLine(u.Note);
-                    }
-                }
-                else if (i.Id == 6)
-                {
-                    foreach(Notes v in FatihNotes)
-                    {
-                        Console.WriteLine(v.Note);
-                    }
+                    Console.WriteLine( a.Course.Name+"'s Grade is : "+a.Note + " Course ID is :" + a.Course.Id + " ");
                 }
                 
             }
